@@ -13,6 +13,14 @@ public class Asztal {
         sorok = new Sor[MAXSOR];
     }
 
+    public Asztal(Sor sor) {
+
+    }
+
+    public Asztal(Sor[] sorok) {
+        this.sorok = sorok;
+    }
+
     public int getDarab() {
         return darab;
     }
